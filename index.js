@@ -41,3 +41,8 @@ function searchBar() {
 function currentDateTime() {
   
 }
+
+<!-- Create a function that pulls in/uses an API (Pick an API) -->
+function callAPI() {
+  
+}
