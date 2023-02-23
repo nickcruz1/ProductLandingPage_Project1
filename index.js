@@ -51,3 +51,8 @@ function callAPI() {
 function changingDisplay() {
   
 }
+
+<!-- Create a carousel function that changes to another picture/testimonial/product when clicked on -->
+function productCarousel() {
+  
+}
