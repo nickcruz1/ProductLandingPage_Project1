@@ -28,3 +28,11 @@ for (let i = 0; i < myArray.length; i++) {
   
   document.getElementById("output").innerHTML = text;
 }
+
+<!-- Create a Function where when clicked on it displays 3 modals simultaneously (and make this responsive).. Likely need to use querySelectorAll OR do what I did above and create a template literal and then iterate through. 
+
+
+<!-- Create a function that uses Reg Ex expressions (perhaps a search bar that can filter/search for items)
+function searchBar() {
+  
+}
