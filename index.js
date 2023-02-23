@@ -46,3 +46,8 @@ function currentDateTime() {
 function callAPI() {
   
 }
+
+<!-- Create a function that utilizes setTimeOut/setInterval and changes a large part of the screen/landing page based on a set interval... perhaps have a product and then have it rotate/change to 2 others on a set interval -->
+function changingDisplay() {
+  
+}
