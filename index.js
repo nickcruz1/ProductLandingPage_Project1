@@ -56,3 +56,8 @@ function changingDisplay() {
 function productCarousel() {
   
 }
+
+<!-- Create a function that reacts to a newsletter submission... Have a newsletter in the html and when you complete the form/"Sign Up" it updates with a message of some sort ("Like Message Sent or "All Signed up).... Same thing with the "Log In/Get Started Btn on Top"-->
+function SignUp() {
+  
+}
