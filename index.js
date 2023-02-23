@@ -36,3 +36,8 @@ for (let i = 0; i < myArray.length; i++) {
 function searchBar() {
   
 }
+
+<!-- Create a function that displays the current date/time and updates (Kind of like a clock that is always updating the time/date)
+function currentDateTime() {
+  
+}
