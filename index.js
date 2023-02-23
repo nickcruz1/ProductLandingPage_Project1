@@ -61,3 +61,11 @@ function productCarousel() {
 function SignUp() {
   
 }
+
+<!-- Create a function that changes the language selection of the whole landing page based on the option that you choose... Figure out how to change the whole language of the page/do the same with the color? -->
+function changeLanguage() {
+  
+}
+
+<!-- Implement function that uses switch case -->
+
