@@ -2,3 +2,11 @@ body {
   background-color: black;
 }
 
+a {
+  color: aqua;
+}
+
+.showcase {
+  background-color: black;
+  border: 1px solid white;
+}
