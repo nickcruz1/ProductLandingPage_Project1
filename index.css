@@ -45,3 +45,9 @@ a {
   top: 50%;
   left: 50%;
 }
+
+.contactUsModal3 {
+  @extend .contactUsModal1;
+  top: 50%;
+  left: 80%;
+}
