@@ -1,9 +1,21 @@
 <!-- Function to Create Contact Us Modal -->
+<!-- Make these Modals responsive? -->
 function contactUs() {
-  let contactBtn = document.querySelector(".contactBtn");
+  let contactUsModal = document.querySelectorAll(".contactUsModal");
+  let threeChoices = document.querySelector(".threeChoices");
+ 
+  <!-- After 3 seconds everything disappears -->
+setTimeout(() => {
+   for (let i = 0; i < contactUsModal.length; i++) {
+  contactUsModal[i].style.display = "none";
+}
+  threeChoices.style.display = "none";
+}, 3000);
   
-  
-  contactBtn.style.display = "block";
+    for (let i = 0; i < contactUsModal.length; i++) {
+  contactUsModal[i].style.display = "block";
+}
+  threeChoices.style.display = "block";
 }
 
 <!-- Function To Close Contact Us Modal -->
