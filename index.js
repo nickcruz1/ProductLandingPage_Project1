@@ -40,6 +40,16 @@ for (let i = 0; i < myArray.length; i++) {
   document.getElementById("output").innerHTML = text;
 }
 
+<!-- Creates a function that displays the current date/time and updates (Kind of like a clock that is always updating the time/date)
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  m = checkTime(m);
+  document.getElementById('txt').innerHTML = "Current Time is: " + " " + h + ":" + m + " (In Military Time)";
+  setTimeout(startTime, 1000);
+}
+
 <!-- Create a Function where when clicked on it displays 3 modals simultaneously (and make this responsive).. Likely need to use querySelectorAll OR do what I did above and create a template literal and then iterate through. 
 
 
