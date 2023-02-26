@@ -50,6 +50,11 @@ function startTime() {
   setTimeout(startTime, 1000);
 }
 
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // this adds zeros in front of numbers < 10
+  return i;
+}
+
 <!-- Create a Function where when clicked on it displays 3 modals simultaneously (and make this responsive).. Likely need to use querySelectorAll OR do what I did above and create a template literal and then iterate through. 
 
 
