@@ -19,12 +19,11 @@ setTimeout(() => {
 }
 
 <!-- Function To Close Contact Us Modal -->
-function closeContactUs() {
-  let contactModal = document.querySelector(".contactModal");
-  
-  
-  contactModal.style.display = "";
-}
+<!-- Make below function if necessary/only need single function -->
+// function closeContactUs() {
+//   let contactModal = document.querySelector(".contactModal");
+//   contactModal.style.display = "";
+// }
 
 <!-- Create an "Onload" function to Iterate through an array and display it's contents -->
 function theArray() {
